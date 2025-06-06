@@ -1,0 +1,53 @@
+  body {
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+      background: linear-gradient(to right, #d1f4fd, #174b8b);
+      /* Degradado de azul claro a azul oscuro */
+      ;
+  }
+
+  #imagenAhorcado{
+      border: 5px solid #174b8b;
+  }
+
+  #intento {
+      color: darkblue;
+      font-weight: 900;
+  }
+
+  #palabra {
+      letter-spacing: 0.75em;
+      font-size: 30px;
+      font-weight: 900;
+  }
+
+  #teclado {
+      width: 100%;
+      background-image: url(../img/fondo.jpg);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      padding: 2em 0;
+      border: 7px solid #174b8b;
+  }
+
+  input[type='button'],
+  button {
+      font-size: 1.2em;
+      font-weight: 800;
+  }
+
+  .boton-teclado {
+      margin: 0 0.2em;
+  }
+
+  #nuevoJuego {
+      display: none;
+  }
+
+  h1 {
+      color: rgb(185, 247, 252);
+      text-shadow: 1px 1px rgb(42, 42, 168);
+  }
